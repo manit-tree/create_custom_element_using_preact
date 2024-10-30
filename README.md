@@ -91,6 +91,35 @@ register(AccordionGroup, 'x-accordion-group', []);
 register(Accordion, 'x-accordion', ['title', 'body']);
 ```
 
+### test.html
+
+```html
+<!doctype html>
+<html lang="en" class="light">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + Preact</title>
+  </head>
+  <body class="dark:bg-neutral-900">
+      <x-accordion-group>
+        <x-accordion title="Hello World" body="SGVsbG8gV29ybGQgPHN0cm9uZz40NTY8L3N0cm9uZz4=" />
+      </x-accordion-group>
+      <x-accordion-group>
+        <x-accordion title="Hello World" body="SGVsbG8gV29ybGQgPHN0cm9uZz40NTY8L3N0cm9uZz4=" />
+      </x-accordion-group>
+      <x-accordion-group>
+        <x-accordion title="Hello World" body="SGVsbG8gV29ybGQgPHN0cm9uZz40NTY8L3N0cm9uZz4=" />
+      </x-accordion-group>
+      <x-accordion-group>
+        <x-accordion title="Hello World" body="SGVsbG8gV29ybGQgPHN0cm9uZz40NTY8L3N0cm9uZz4=" />
+      </x-accordion-group>
+    <script type="module" src="./dist/bundle.js?v=1.0.34"></script>
+  </body>
+</html>
+```
+
 ### vite.config.js
 
 ```js
