@@ -1,0 +1,24 @@
+{
+  "name": "preact-preline",
+  "description": "Development template for Preact + Preline",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "preact": "^10.23.1",
+    "preact-slots": "^1.0.0",
+    "preline": "^2.5.1"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.9.0",
+    "postcss": "^8.4.47",
+    "preact-custom-element": "^4.3.0",
+    "tailwindcss": "^3.4.14",
+    "vite": "^5.4.1",
+    "vite-plugin-css-injected-by-js": "^3.4.0"
+  }
+}
